@@ -3,3 +3,4 @@ java/HighwayHashWrapper/*
 !java/HighwayHashWrapper/src
 .vscode/*
 .env
+java/HighwayHashWrapper/src/com/gmail/semon16/highwayhash/Main.java
