@@ -1,6 +1,6 @@
 {
   "name": "highwayhash-nodejs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Nodejs Google Highwayhash",
   "main": "./src/index.js",
   "scripts": {
