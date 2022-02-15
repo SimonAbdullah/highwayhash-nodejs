@@ -1,0 +1,24 @@
+{
+  "name": "highwayhash-nodejs",
+  "version": "1.0.0",
+  "description": "Nodejs Google Highwayhash",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node ./src/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonAbdullah/highwayhash-nodejs.git"
+  },
+  "author": "Simon Abdullah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SimonAbdullah/highwayhash-nodejs/issues"
+  },
+  "homepage": "https://github.com/SimonAbdullah/highwayhash-nodejs#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "java": "^0.12.2",
+    "path": "^0.12.7"
+  }
+}
