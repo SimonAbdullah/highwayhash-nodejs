@@ -2,3 +2,4 @@ node_modules/*
 java/HighwayHashWrapper/*
 !java/HighwayHashWrapper/src
 .vscode/*
+.env

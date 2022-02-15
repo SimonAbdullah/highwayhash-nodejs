@@ -4,3 +4,4 @@ java/HighwayHashWrapper/HighwayHashWrapper.iml
 java/HighwayHashWrapper/.idea/*
 java/HighwayHashWrapper/out/production/*
 java/HighwayHashWrapper/src/*
+.env
