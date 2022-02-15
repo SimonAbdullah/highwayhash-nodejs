@@ -2,7 +2,7 @@
 const java = require("java");
 const path = require("path");
 
-const jarPath = process.env.HIGHWAY_HASH_WRAPPER_JAR_PATH || path.join(process.cwd(), "java", "HighwayHashWrapper", "out", "artifacts", "HighwayHashWrapper", "HighwayHashWrapper.jar");
+const jarPath = process.env.HIGHWAY_HASH_WRAPPER_JAR_PATH || path.join(__dirname, "..", "..", "java", "HighwayHashWrapper", "out", "artifacts", "HighwayHashWrapper", "HighwayHashWrapper.jar");
 java.classpath.push(jarPath);
 
 const resetKey = (key) => {
