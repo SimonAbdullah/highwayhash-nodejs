@@ -219,7 +219,7 @@ const testFunction = (hashFunc, expected) => {
     const input = data.slice(0, index);
     try {
       const hashBuf = hashFunc(input);
-      const isPassed = Buffer.from(hashBuf).equals(
+      const isPassed = hashBuf.equals(
         Buffer.from(expected[index], "hex")
       );
       if (isPassed) {

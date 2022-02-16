@@ -34,7 +34,7 @@ const hash64 = (buf) => {
     bufByteArray
   );
 
-  return hash;
+  return Buffer.from(hash);
 };
 
 const hash128 = (buf) => {
@@ -51,7 +51,7 @@ const hash128 = (buf) => {
     bufByteArray
   );
 
-  return hash;
+  return Buffer.from(hash);
 };
 
 const hash256 = (buf) => {
@@ -68,7 +68,7 @@ const hash256 = (buf) => {
     bufByteArray
   );
 
-  return hash;
+  return Buffer.from(hash);
 };
 
 module.exports = { resetKey, hash64, hash128, hash256 }
